@@ -48,7 +48,7 @@ def calculate_miles_per_gallon():
     miles_driven = float(input("Miles driven: "))
     gallons_used = float(input("Gas used (gallons): "))
     mpg = miles_driven / gallons_used
-    print(f"Miles per gallon: {mpg:.2f}")
+    print(f"Miles per gallon: {mpg:.2f}") 
 
 def align_text():
     """
